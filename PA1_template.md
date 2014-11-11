@@ -1,4 +1,9 @@
-# Reproducible Research: Peer Assessment 1
+---
+title: "Reproducible Research: Peer Assessment 1"
+output: 
+  html_document:
+    keep_md: true
+---
 
 Assignment instructions are marked with *italics*.
 
@@ -37,7 +42,7 @@ ggplot(data = stepsbydate, aes(x=date, y=steps)) +
     geom_bar(stat="identity")
 ```
 
-![](./PA1_template_files/figure-html/unnamed-chunk-3-1.png) 
+![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-1.png) 
 
 *Calculate and report the mean and median total number of steps taken per day.*  
   
@@ -77,7 +82,7 @@ ggplot(data = stepsbyinterval, aes(x=interval, y=steps)) +
     geom_line(stat="identity")
 ```
 
-![](./PA1_template_files/figure-html/unnamed-chunk-5-1.png) 
+![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png) 
 
 *Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?*  
   
@@ -142,7 +147,7 @@ ggplot(data = stepsbydate2, aes(x=date, y=steps)) +
     geom_bar(stat="identity")
 ```
 
-![](./PA1_template_files/figure-html/unnamed-chunk-9-1.png) 
+![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9-1.png) 
   
 Calculate the mean and median of the number of steps summed by day, rounded to whole steps.
 
@@ -205,5 +210,5 @@ ggplot(data = stepsbyinterval2, aes(x=interval, y=steps)) +
     geom_line(stat="identity")
 ```
 
-![](./PA1_template_files/figure-html/unnamed-chunk-13-1.png) 
+![plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13-1.png) 
 
